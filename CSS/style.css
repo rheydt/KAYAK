@@ -1,4 +1,11 @@
 /* starting with mobile style */
+@viewport {
+  width: device-width;
+    zoom: 1;
+    min-zoom: 0.5;
+    max-zoom: 3;
+    user-zoom: fixed;
+}
 
 html,
 body {
@@ -6,16 +13,20 @@ body {
 	padding: 5px
 
 }
+
 .logo {
 	/*display: inline-block;
+
 	float: left;*/
 }
 .logo img {
 }
+
 ul.menu-list {
 	list-style: none;
 	margin-top: 10px;
 }
+
 li.menu-item {
 	float: left;
 	display: block;
@@ -24,6 +35,7 @@ li.menu-item {
 	background-color: #FD7B00;
 	text-align: center;
 }
+
 li.menu-item a {
 	color: #fff;
 	text-decoration: none;
@@ -31,6 +43,7 @@ li.menu-item a {
 	padding: 10px 0;
 	display: block;
 }
+
 li.menu-item.login a {
 	background: url("header_login_icon@2x.png") no-repeat center;
 	background-size: 25px 25px;
