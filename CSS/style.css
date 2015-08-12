@@ -39,6 +39,9 @@ li.menu-item {
 
 li.menu-item.login {
 	background-color: transparent;
+	position: relative;
+    top: -55px;
+    left: -20px;
 }
 
 li.menu-item a {
