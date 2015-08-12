@@ -15,7 +15,9 @@ body {
 }
 
 body {
-	padding: 8px;
+	/*padding: 8px;*/
+	padding: 8px 0 0 8px;
+	width: calc(100% - 8px);
 }
 
 ul.menu-list {
