@@ -37,6 +37,10 @@ li.menu-item {
 	margin-right: 1px;
 }
 
+li.menu-item:hover {
+	background-color: #DA7539;
+}
+
 li.menu-item.login {
 	background-color: transparent;
 	position: relative;
