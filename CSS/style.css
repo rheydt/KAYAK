@@ -35,6 +35,10 @@ li.menu-item {
 	text-align: center;
 }
 
+li.menu-item.login {
+	background-color: transparent;
+}
+
 li.menu-item a {
 	color: #fff;
 	text-decoration: none;
