@@ -32,7 +32,8 @@ li.menu-item {
 	display: block;
 	width: 100px;
 	height: auto;
-	background-color: #FD7B00;
+	/*background-color: #FD7B00;*/
+	background-color: #F18037;
 	text-align: center;
 	margin-right: 1px;
 }
