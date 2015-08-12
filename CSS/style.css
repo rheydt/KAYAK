@@ -1,24 +1,24 @@
 /* starting with mobile style */
+
 @viewport {
-  width: device-width;
-    zoom: 1;
-    min-zoom: 0.5;
-    max-zoom: 3;
-    user-zoom: fixed;
+	width: device-width;
+	zoom: 1;
+	min-zoom: 0.5;
+	max-zoom: 3;
+	user-zoom: fixed;
 }
 
 html,
 body {
 	width: 100%;
+}
+
+html {
 	margin: 0;
 }
 
-.logo {
-	/*display: inline-block;
-	float: left;*/
-}
-
-.logo img {
+body {
+	margin: 8px;
 }
 
 ul.menu-list {
